@@ -11,11 +11,11 @@
   box-sizing: border-box;
 }
 header {
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
-  font-family: Athiti;
+  font-family: sofia;
   color: #72331c;
-  font-weight: bolder;
+  font-weight: bold;
   padding: 20px;
   background-color: #fcf5e8;
   border-bottom: 0px solid #72331c;  
@@ -37,7 +37,7 @@ header {
   padding-top: 50px;
   padding-right: 120px;
   padding-left: 20px;
-  padding-bottom: 120vh;
+  padding-bottom: 90vh;
   background-color: rgba(117, 151, 185, 0);
 }
 
@@ -99,7 +99,7 @@ header {
   flex-direction: column;
   background-color: rgb(255, 255, 255);
   width: 100%;
-  height: 320px;
+  height: 100px;
 }
 
 section.Floor1 {
@@ -170,7 +170,7 @@ section.Floor2 {
   margin-top: 50px;
   margin-left: 50px;
   margin-right: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 .pic1 img {
   border: 2px solid rgb(152, 152, 152);
@@ -340,8 +340,68 @@ footer {
   position: relative;
   border-top: 0px solid #72331c;
   width: 100%;
-  height: 60px;
+  height: 150px;
   padding: 50px;
   background-color: #fcf5e8;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.08), 0 10px 20px 0 rgba(0, 0, 0, 0.12);
+}
+
+.img-myfuture img {
+  height: 200px;
+  width: 200px;
+  border-radius: 15%;
+  margin: 15px;
+}
+.img-myfuture p {
+  text-align: center;
+  margin: 10px;
+  font-family: Krub;
+  font-weight: 500;
+  font-size: 16px;
+}
+.img-myfuture {
+  float: left;
+  margin: 20px;
+  border: 0px solid #741f05;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(223, 222, 222, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img-myjourney img {
+  height: 250px;
+  margin: 5px;
+  border-radius: 15px;
+}
+.img-myjourney p {
+  margin: 15px;
+  font-family: Athiti;
+  font-weight: bold;
+  font-size: 28px;
+}
+.img-myjourney p2 {
+  display: block;
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: Krub;
+  font-weight: normal;
+  font-size: 18px;
+}
+.img-myjourney {
+  margin: 50px;
+  text-align: center;
+}
+.img-myjourney span1 {
+  display: block;
+  text-align: center;
+  margin: 20px;
+  font-family: Krub;
+  font-weight: 450;
+  font-size: 16px;
+}
+.img-myjourney span2 {
+  display: block;
+  text-align: center;
+  margin: 20px;
+  font-family: Krub;
+  font-weight: normal;
+  font-size: 16px;
 }
